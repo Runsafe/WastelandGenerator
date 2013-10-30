@@ -1,0 +1,10 @@
+name: WastelandGenerator
+main: no.runsafe.wastelandgenerator.Plugin
+version: 1.0.@BUILD@
+authors: []
+depend: []
+description:
+commands:
+  something:
+    description:
+    aliases: []
