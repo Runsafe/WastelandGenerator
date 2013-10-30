@@ -1,10 +1,7 @@
 name: WastelandGenerator
 main: no.runsafe.wastelandgenerator.Plugin
+load: STARTUP
 version: 1.0.@BUILD@
-authors: []
+author: Kruithne
 depend: []
-description:
-commands:
-  something:
-    description:
-    aliases: []
+description: Generator of the wastelands!
