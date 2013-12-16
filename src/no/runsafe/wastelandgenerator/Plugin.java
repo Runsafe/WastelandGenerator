@@ -10,7 +10,7 @@ import java.util.Random;
 public class Plugin extends RunsafePlugin
 {
 	@Override
-	protected void PluginSetup() {}
+	protected void pluginSetup() {}
 
 	public ChunkGenerator getDefaultWorldGenerator(String worldName, String id)
 	{
