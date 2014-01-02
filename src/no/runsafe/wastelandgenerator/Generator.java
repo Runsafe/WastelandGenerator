@@ -34,6 +34,4 @@ public class Generator extends ChunkGenerator
 		result[y >> 4][((y & 0xF) << 8) | (z << 4) | x] = block;
 		return result;
 	}
-
-	private Random random = new Random();
 }
