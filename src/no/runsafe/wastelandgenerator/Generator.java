@@ -28,12 +28,11 @@ public class Generator extends ChunkGenerator
 		return result;
 	}
 
-	private byte[][] setBlock(byte[][] result, int x, int y, int z, byte block)
+	private void setBlock(byte[][] result, int x, int y, int z, byte block)
 	{
 		if (result[y >>4] == null)
 			result[y >> 4] = new byte[4096];
 
 		result[y >> 4][((y & 0xF) << 8) | (z << 4) | x] = block;
-		return result;
 	}
 }
