@@ -17,9 +17,11 @@ public class Generator extends ChunkGenerator
 		{
 			for (int z = 0; z < 16; z++)
 			{
-				result = setBlock(result, x, 60, z, (byte) Item.BuildingBlock.Dirt.getItemID());
+				setBlock(result, x, 60, z, (byte) Item.BuildingBlock.Dirt.getItemID());
 				if (random.nextInt(4) == 2)
-					result = setBlock(result, x, 61, z, (byte) Item.Decoration.LongGrass.getItemID());
+				{
+					setBlock(result, x, 61, z, (byte) Item.Decoration.LongGrass.getItemID());
+				}
 			}
 		}
 
