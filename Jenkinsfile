@@ -7,6 +7,7 @@ pipeline {
   environment { plugin = "WastelandGenerator" }
   triggers {
     upstream '/Runsafe/Framework/master'
+    upstream '/Runsafe/Framework/develop'
     pollSCM '@monthly'
   }
   stages {
